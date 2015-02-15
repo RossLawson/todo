@@ -12,7 +12,7 @@ body {
 }
 #code {
   display: block;
-  width: 400px;
+  width: 50%;
   margin: 25px auto 0 100px;
   float: right;
 }

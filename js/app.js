@@ -1,6 +1,3 @@
-//Problem: User interaction doesn't provide desired results.
-//Solution: Add interactivty so the user can manage daily tasks.
-
 var taskInput = document.getElementById("new-task"); //new-task
 var addButton = document.getElementsByTagName("button")[0]; //first button
 var incompleteTasksHolder = document.getElementById("incomplete-tasks"); //incomplete-tasks
@@ -147,36 +144,3 @@ for(var i = 0; i < completedTasksHolder.children.length; i++) {
   //bind events to list item's children (taskIncomplete)
   bindTaskEvents(completedTasksHolder.children[i], taskIncomplete);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
